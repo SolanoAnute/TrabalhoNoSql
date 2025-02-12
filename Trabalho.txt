@@ -3,4 +3,7 @@ Tema: Gerenciador de jogadores de futebol
 Objetivo: Gerenciar status da condição física dos jogadores
 
 13/02/2025 - 
-Funções principais: Registrar jogadores e suas informações, atualizar o status dos jogadores 
+Funções principais: 
+Registrar jogadores e suas informações (Nome, data de nascimento, posição de origem, posições complementares, tempo jogado na semana, vigor físico na semana [muito cansando, cansado, regular, bom, muito bom], queixa de problemas na semana, condição de jogo para a semana [disponível, indisponível ou lesionado], capacidade para jogo [risco de lesão, metade da partida, partida completa], status tratamento lesão [inicial, recuperação, fisioterapia, treino regenerativo, treino moderado, treino regular] 
+
+atualizar o status dos jogadores 
