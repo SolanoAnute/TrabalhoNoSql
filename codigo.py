@@ -19,8 +19,20 @@ db = client["FutebolDB"]
 collection = db["jogadores"]
 
 # 4️⃣ Inserir um novo jogador
-novo_jogador = {"nome": "Cristiano Ronaldo", "idade": 39, "posição": "Atacante", "clube": "Al-Nassr", }
-collection.insert_one(novo_jogador)
+jogador = {
+    "ID": 1,
+    "Nome": "João Silva",
+    "Data_Nascimento": "1998-05-10",
+    "Posicao_Origem": "Meio-Campo",
+    "Posicoes_Complementares": ["Atacante", "Lateral Direito"],
+    "Tempo_Jogado_Semana": 240,  # em minutos
+    "Vigor_Fisico_Semana": "Regular",
+    "Queixa_Problemas_Semana": "Dor no joelho esquerdo",
+    "Condicao_Jogo_Semana": "Disponível",
+    "Capacidade_Jogo": "Partida Completa",
+    "Status_Tratamento_Lesao": "Treino Regenerativo"
+}
+collection.insert_one(jogador)
 
 # 7️⃣ Remover um jogador
 #collection.delete_one({"nome": "Neymar"})
