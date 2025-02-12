@@ -1,0 +1,6 @@
+11/02/2025 -
+Tema: Gerenciador de jogadores de futebol
+Objetivo: Gerenciar status da condição física dos jogadores
+
+13/02/2025 - 
+Funções principais: Registrar jogadores e suas informações, atualizar o status dos jogadores 
