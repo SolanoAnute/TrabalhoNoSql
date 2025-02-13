@@ -1,6 +1,6 @@
 from pymongo import MongoClient
 
-# Substitua pela sua string de conexão
+#string de conexão
 uri = "mongodb+srv://solanute:123@cluster0.fpr24.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 # Criar uma conexão com o MongoDB
@@ -35,7 +35,7 @@ jogador = {
 collection.insert_one(jogador)
 
 # 7️⃣ Remover um jogador
-#collection.delete_one({"nome": "Neymar"})
+collection.delete_one({"nome": "...."})
 
 
 jogadores = collection.find()
