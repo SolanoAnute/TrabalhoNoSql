@@ -6,4 +6,8 @@ Objetivo: Gerenciar status da condição física dos jogadores
 Funções principais: 
 Registrar jogadores e suas informações (ID, Nome, data de nascimento, posição de origem, posições complementares, tempo jogado na semana, vigor físico na semana [muito cansando, cansado, regular, bom, muito bom], queixa de problemas na semana, condição de jogo para a semana [disponível, indisponível ou lesionado], capacidade para jogo [risco de lesão, metade da partida, partida completa], status tratamento lesão (se houver) [inicial, recuperação, fisioterapia, treino regenerativo, treino moderado, treino regular] 
 
-atualizar o status dos jogadores 
+atualizar o status dos jogadores
+
+escalar e recomendar jogadores de acordo com os dados deles. por exemplo, se algum se machucar, tem uma lista de jogadores para substituir eles. 
+
+acompanhar jogadores lesionados
