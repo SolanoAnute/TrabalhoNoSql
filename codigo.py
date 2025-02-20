@@ -23,8 +23,8 @@ jogador = {
     "ID": 1,
     "Nome": "João Silva",
     "Data_Nascimento": "1998-05-10",
-    "Posicao_Origem": "Meio-Campo",
-    "Posicoes_Complementares": ["Atacante", "Lateral Direito"],
+    "Posicao_Origem": "Meio-Campo Ofensivo",
+    "Posicoes_Complementares": ["Atacante"],
     "Tempo_Jogado_Semana": 240,  # em minutos
     "Vigor_Fisico_Semana": "Regular",
     "Queixa_Problemas_Semana": "Não houve",
