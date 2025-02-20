@@ -27,10 +27,10 @@ jogador = {
     "Posicoes_Complementares": ["Atacante", "Lateral Direito"],
     "Tempo_Jogado_Semana": 240,  # em minutos
     "Vigor_Fisico_Semana": "Regular",
-    "Queixa_Problemas_Semana": "Dor no joelho esquerdo",
+    "Queixa_Problemas_Semana": "Não houve",
     "Condicao_Jogo_Semana": "Disponível",
     "Capacidade_Jogo": "Partida Completa",
-    "Status_Tratamento_Lesao": "Treino Regenerativo"
+    "Status_Tratamento_Lesao": "Sem lesão"
 }
 collection.insert_one(jogador)
 
