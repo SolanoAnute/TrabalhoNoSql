@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 
 #string de conexão
-uri = "mongodb+srv://solanute:123@cluster0.fpr24.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+uri = ""
 
 # Criar uma conexão com o MongoDB
 client = MongoClient(uri)
