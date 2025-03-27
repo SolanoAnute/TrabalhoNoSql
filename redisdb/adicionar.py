@@ -11,6 +11,6 @@ def adicionar_jogador(nome, posicao, idade, status_fisico):
     })
     print(f"Jogador '{nome}' adicionado com sucesso!")
 
-# Teste
+
 if __name__ == "__main__":
     adicionar_jogador("Neymar", "Atacante", 32, "Apto")
