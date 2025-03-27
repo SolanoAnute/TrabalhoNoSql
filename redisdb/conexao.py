@@ -6,5 +6,5 @@ def get_redis_connection():
     port=17375,
     decode_responses=True,
     username="solano",
-    password="@Abc12345678",
+    password="",
 )
