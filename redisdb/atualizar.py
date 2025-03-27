@@ -9,6 +9,6 @@ def atualizar_jogador(nome, campo, novo_valor):
     else:
         print(f"Jogador '{nome}' não encontrado.")
 
-# Teste
+
 if __name__ == "__main__":
     atualizar_jogador("Neymar", "status_fisico", "Lesionado")
