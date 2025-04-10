@@ -10,7 +10,7 @@ from crud.listar_jogadores import contar_jogadores_veteranos
 from crud.listar_jogadores import listar_indices
 from conexao_neo4j import conn
 from analise_grafos import detectar_comunidades
-
+from analise_grafos import detectar_comunidades_gds as detectar_comunidades
 
 
 router = APIRouter()
